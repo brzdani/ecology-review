@@ -11,7 +11,7 @@ layout: default
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-<div style="text-align: justify;">
+
 In the preceding chapter, we listed Hastings’ (A. Hastings 2011) key principles and assumptions of single species population growth. One of the key assumptions is that “all individuals in a population are identical.” In this chapter, we elucidate an important violation of that assumption, population structure.
 
 Populations have structure. Consider the human populations of Mexico and Sweden in 1990. Mexico had a much larger fraction of their population in child bearing age classes or younger. In addition, the age-specific fertility rate was higher in Mexico, especially for younger women. How did this happen, and why did Mexico have so many young people? What were the consequences of this for their culture, their use of resources, their domestic and foreign policies, and their future population growth? How about Sweden?
@@ -38,10 +38,19 @@ We can make some general comments. The least realistic of the three types is typ
 
 ## Fertility
 
-The other half of the life table is the fertility column, $b_x$. Here, each value represents the average number of female offspring produced per female of a given age. Again, gathering accurate data on fertility in the field is problematic for many populations. In order to simplify calculations, we count only the number of females. That is, the values are mean numbers of females by age class. Fertility, similar to survivorship, can be graphed as a function of age, and the resultant fertility curve is usually triangular or rectangular in shape. 
+The other half of the life table is the fertility column, \(b_x)\. Here, each value represents the average number of female offspring produced per female of a given age. Again, gathering accurate data on fertility in the field is problematic for many populations. In order to simplify calculations, we count only the number of females. That is, the values are mean numbers of females by age class. Fertility, similar to survivorship, can be graphed as a function of age, and the resultant fertility curve is usually triangular or rectangular in shape. 
 
-The sum of the $b_x$ column defines the gross reproductive rate (GRR). This number is the average number of female offspring produced by a female that survives at least through the last reproductive age class
+The sum of the \(b_x)\ column defines the gross reproductive rate (GRR). This number is the average number of female offspring produced by a female that survives at least through the last reproductive age class
 
 $$GRR = \sum {b_x}$$
 
-</div>
+From the \(l_x)\ column, we can develop two parallel columns, which provide information on how survivorship and mortality rates change with age. The \(l_x)\ column is based on the probability, at birth, of surviving to a given age class. The \(P_x)\ column, by contrast, is the age-specific probability of surviving to the next age class.
+
+$$
+ P(x) = \frac {l(x+1)} {l(x)}
+$$
+These px values are critically important when we want to project future population growth as will become clear later in this chapter. The companion value to \(P_x)\ is \(q_x)\, which is the proportion of the population that has survived to a given age, \(x)\, but which will die in the next time or age interval.
+
+$$
+    q_x = 1 - P_x
+$$
