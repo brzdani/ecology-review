@@ -34,6 +34,6 @@ The other half of the life table is the fertility column, $b_x$. Here, each valu
 
 The sum of the $b_x$ column defines the gross reproductive rate (GRR). This number is the average number of female offspring produced by a female that survives at least through the last reproductive age class
 
-$$
+\begin{equation}
     GRR = \sum {b_x}
-$$
+\end{equation}
