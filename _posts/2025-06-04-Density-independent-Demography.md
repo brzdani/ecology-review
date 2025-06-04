@@ -50,7 +50,7 @@ $$
  P(x) = \frac {l(x+1)} {l(x)}
 $$
 
-These px values are critically important when we want to project future population growth as will become clear later in this chapter. The companion value to \(P_x\) is \(q_x\), which is the proportion of the population that has survived to a given age, \(x\), but which will die in the next time or age interval.
+These px values are critically important when we want to project future population growth as will become clear later in this chapter. The companion value to \(P_x\) is \(q_x\), which is the proportion of the population that has survived to a given age, \( x \), but which will die in the next time or age interval.
 
 $$
     q_x = 1 - P_x
