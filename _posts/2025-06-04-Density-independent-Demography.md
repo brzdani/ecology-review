@@ -13,7 +13,7 @@ layout: default
 </script>
 <script>MathJax = {tex: {inlineMath: [["$", "$"]]}}</script>
 
-<div style="text-align: justify;">
+<p align="justify">
 
   
 In the preceding chapter, we listed Hastings’ (A. Hastings 2011) key principles and assumptions of single species population growth. One of the key assumptions is that “all individuals in a population are identical.” In this chapter, we elucidate an important violation of that assumption, population structure.
@@ -34,7 +34,7 @@ The structure to which we refer is simply the organization of populations by som
 Structured population models allow us to intertwine species-specific natural history and quantitative methods. This makes the approach especially appealing for the conservation biology of threatened and endangered species. We use structured population models to improve our understanding of a population or improve predictions of its future dynamics, or guide the management of the population. We might learn a lot about what controls the abundance of a species if we can test ideas related to different stages, ages, or sizes. What limits the population growth of the Western toad – is it egg survival, or overwintering survival of juveniles? Where should we invest our efforts to control garlic mustard (Alliaria petiolata) – killing the first year rosettes, or the second year adults? Why are cacti generally endangered (Goettsch et al. 2015)—is the smallest size or the largest size more important for long-term survival? We can use structured population models to address such questions.
 
 
-</div>
+</p>
 
 ##  Survivorship
 ---
