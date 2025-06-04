@@ -49,6 +49,9 @@ In a survivorship curve, age (x), the independent variable, is graphed against s
 
 We can make some general comments. The least realistic of the three types is type I. A type I curve applies to laboratory populations of animals such as Drosophila. If provided ample food, the population has a high rate of survivorship until the end of its maximum life span when individuals die more or less simultaneously. In order for an organism to have a type II survivorship curve, all stages of the life history must be more or less equally vulnerable to predation or other causes of death. Birds, especially the adult stages, are most commonly cited as having a type II survivorship curve. The type III survivorship curve, which features heavy mortality among young age classes followed by good to excellent adult survivorship, applies to most bioogical populations from barnacles to sea turtles to plants. 
 
+![image](https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677)
+
+
 ## Fertility
 ----------------------
 The other half of the life table is the fertility column, $b_x$. Here, each value represents the average number of female offspring produced per female of a given age. Again, gathering accurate data on fertility in the field is problematic for many populations. In order to simplify calculations, we count only the number of females. That is, the values are mean numbers of females by age class. Fertility, similar to survivorship, can be graphed as a function of age, and the resultant fertility curve is usually triangular or rectangular in shape. 
