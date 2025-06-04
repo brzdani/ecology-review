@@ -11,7 +11,7 @@ layout: default
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-
+<div style="text-align: justify;">
 In the preceding chapter, we listed Hastings’ (A. Hastings 2011) key principles and assumptions of single species population growth. One of the key assumptions is that “all individuals in a population are identical.” In this chapter, we elucidate an important violation of that assumption, population structure.
 
 Populations have structure. Consider the human populations of Mexico and Sweden in 1990. Mexico had a much larger fraction of their population in child bearing age classes or younger. In addition, the age-specific fertility rate was higher in Mexico, especially for younger women. How did this happen, and why did Mexico have so many young people? What were the consequences of this for their culture, their use of resources, their domestic and foreign policies, and their future population growth? How about Sweden?
@@ -44,3 +44,4 @@ The sum of the $b_x$ column defines the gross reproductive rate (GRR). This numb
 
 $$GRR = \sum {b_x}$$
 
+</div>
