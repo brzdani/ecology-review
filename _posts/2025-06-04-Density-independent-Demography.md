@@ -14,18 +14,25 @@ layout: default
 <script>MathJax = {tex: {inlineMath: [["$", "$"]]}}</script>
 
 <div style="text-align: justify;">
+
   
 In the preceding chapter, we listed Hastings’ (A. Hastings 2011) key principles and assumptions of single species population growth. One of the key assumptions is that “all individuals in a population are identical.” In this chapter, we elucidate an important violation of that assumption, population structure.
 
+
 Populations have structure. Consider the human populations of Mexico and Sweden in 1990. Mexico had a much larger fraction of their population in child bearing age classes or younger. In addition, the age-specific fertility rate was higher in Mexico, especially for younger women. How did this happen, and why did Mexico have so many young people? What were the consequences of this for their culture, their use of resources, their domestic and foreign policies, and their future population growth? How about Sweden?
+
 
 Demography is the study of populations with special attention to their structure. Originally, age-based human demography was the provenance of actuaries who helped governments keep track of the number citizens of different ages and thus, for instance, know how many would be available for conscription into the military.
 
+
 The reason we model the structure of populations is because various demographic rates vary markedly with these stages. Juveniles produce no offspring. Very few seeds survive an entire year, whereas some large adults survive very well. We use structure when that structure is associated with important differences in demographic rates: survival, fecundity, and growth.
+
 
 The structure to which we refer is simply the organization of populations by some character such as life history stage, age, or size. Sizes and ages are often reduced to categories such as we saw in human populations (e.g., 0–4.9,y, 5–9.9,y,…). Sizes may be based on any reliable and repeatable measure that relates to demographic rates and are similarly binned. Life history stages may include eggs, larvae, metamorphs, juveniles, and adults in amphibians, or seeds, rosettes, and reproductive stems in herbaceous plants. With a variable such as size, we don’t need to use categories, but rather we can use size as a continuous variable; we address this briefly later in the chapter.
 
+
 Structured population models allow us to intertwine species-specific natural history and quantitative methods. This makes the approach especially appealing for the conservation biology of threatened and endangered species. We use structured population models to improve our understanding of a population or improve predictions of its future dynamics, or guide the management of the population. We might learn a lot about what controls the abundance of a species if we can test ideas related to different stages, ages, or sizes. What limits the population growth of the Western toad – is it egg survival, or overwintering survival of juveniles? Where should we invest our efforts to control garlic mustard (Alliaria petiolata) – killing the first year rosettes, or the second year adults? Why are cacti generally endangered (Goettsch et al. 2015)—is the smallest size or the largest size more important for long-term survival? We can use structured population models to address such questions.
+
 
 </div>
 
