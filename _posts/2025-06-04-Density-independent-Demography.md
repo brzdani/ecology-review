@@ -44,7 +44,7 @@ The sum of the \(b_x\) column defines the gross reproductive rate (GRR). This nu
 
 $$GRR = \sum {b_x}$$
 
-From the \(l_x\) column, we can develop two parallel columns, which provide information on how survivorship and mortality rates change with age. The \(l_x\) column is based on the probability, at birth, of surviving to a given age class. The \(P_x\) column, by contrast, is the age-specific probability of surviving to the next age class.
+From the \(l_x\) column, we can develop two parallel columns, which provide information on how survivorship and mortality rates change with age. The \(l_x\) column is based on the probability, at birth, of surviving to a given age class. The \\(P_x\\) column, by contrast, is the age-specific probability of surviving to the next age class.
 
 $$
  P(x) = \frac {l(x+1)} {l(x)}
