@@ -33,9 +33,21 @@ A second approach is to locate and examine all of the dead individuals in a popu
 
 A third approach is to collect life history data for several cohorts over as long a period as possible. In most populations, there is a large difference between juvenile and adult survivorship. Therefore, although survivorship data on adults are often relatively easy to gather, such data do not apply to the juvenile age classes. Depending on the age when reproduction begins, it is possible to find the growth rate of the population without specific data on juvenile survivorship, as described later in the chapter.
 
+Let $s_x$ be the survival rate, or probability, that an individual in age class $x$ will survive from the beginning of the year to the beginning of the next year and thus reach age $x + 1$. Let $dx$ = the corresponding death rate of age class x. Then 
+
+$$
+  s_x = 1 - d_x
+$$
+
+The survivorship from age class 1 to the beginning of age class x is called $l_x$, so 
+
+$$
+  l_x = s_1s_2...s_{x-1}
+$$
+
 In a survivorship curve, age (x), the independent variable, is graphed against survivorship. Pearl (1927) introduced the idea that biological populations routinely fit one of the three “types” of survivorship curves. The type I curve, known as the “death at senescence” curve, is characterized by excellent survivorship at all ages from birth until “old age,” at which time the death rate rapidly accelerates and survivorship plummets. The type II curve is linear and assumes that either a constant number or a constant proportion of the population dies in each age interval.  Finally, the type III curve applies to the majority of biological populations. In this curve, there is very high mortality among the juvenile age classes while adult survivorship is relatively high.
 
-We can make some general comments. The least realistic of the three types is type I. A type I curve applies to laboratory populations of animals such as Drosophila. If provided ample food, the population has a high rate of survivorship until the end of its maximum life span when individuals die more or less simultaneously. In order for an organism to have a type II survivorship curve, all stages of the life history must be more or less equally vulnerable to predation or other causes of death. Birds, especially the adult stages, are most commonly cited as having a type II survivorship curve. The type III survivorship curve, which features heavy mortality among young age classes followed by good to excellent adult survivorship, applies to most bioogical populations from barnacles to sea turtles to plants
+We can make some general comments. The least realistic of the three types is type I. A type I curve applies to laboratory populations of animals such as Drosophila. If provided ample food, the population has a high rate of survivorship until the end of its maximum life span when individuals die more or less simultaneously. In order for an organism to have a type II survivorship curve, all stages of the life history must be more or less equally vulnerable to predation or other causes of death. Birds, especially the adult stages, are most commonly cited as having a type II survivorship curve. The type III survivorship curve, which features heavy mortality among young age classes followed by good to excellent adult survivorship, applies to most bioogical populations from barnacles to sea turtles to plants. 
 
 ## Fertility
 ----------------------
