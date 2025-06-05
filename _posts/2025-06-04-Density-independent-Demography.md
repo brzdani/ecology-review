@@ -105,7 +105,7 @@ We can make some general comments. The least realistic of the three types is typ
   <img src="https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677" />
 </p>
 
-![image](https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677)
+
 
 
 <p align="justify">
@@ -156,6 +156,9 @@ $$
 
 The approach we take is to imagine that all the $R_0$ babies born to these mothers over their lifetimes were all born to them at some age G instead.
 
+<p align = 'center'>
+  < img src= "https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb" /> 
+</p> 
 
 ![image](https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb)
 
