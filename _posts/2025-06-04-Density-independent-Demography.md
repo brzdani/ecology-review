@@ -186,6 +186,10 @@ The area under the $l(x)$ curve is 10, and all individuals have a lifetime of 10
 
 The life expectancy at birth can also be thought of as the mean age of death in the population. Using the definition of a mean age $x$, we get 
 
-$$
-  Life Expectancy at birth = Mean age of death = \sum_{x=0} {x l_x d_x}
-$$
+<p align = 'center'>
+  
+  Life Expectancy at birth = Mean age of death = $\sum_{x=0} {x l_x d_x}$
+
+</p> 
+
+
