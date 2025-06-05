@@ -77,15 +77,6 @@ We can make some general comments. The least realistic of the three types is typ
 
 ![image](https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677)
 
-
-## Fertility
-----------------------
-The other half of the life table is the fertility column, $b_x$. Here, each value represents the average number of female offspring produced per female of a given age. Again, gathering accurate data on fertility in the field is problematic for many populations. In order to simplify calculations, we count only the number of females. That is, the values are mean numbers of females by age class. Fertility, similar to survivorship, can be graphed as a function of age, and the resultant fertility curve is usually triangular or rectangular in shape. 
-
-The sum of the $b_x$ column defines the gross reproductive rate (GRR). This number is the average number of female offspring produced by a female that survives at least through the last reproductive age class
-
-$$GRR = \sum {b_x}$$
-
 From the $l_x$ column, we can develop two parallel columns, which provide information on how survivorship and mortality rates change with age. The $l_x$ column is based on the probability, at birth, of surviving to a given age class. The $P_x$ column, by contrast, is the age-specific probability of surviving to the next age class.
 
 $$
@@ -97,4 +88,34 @@ These px values are critically important when we want to project future populati
 $$
     q_x = 1 - P_x
 $$
+
+## Fertility
+----------------------
+The other half of the life table is the fertility column, $b_x$. Here, each value represents the average number of female offspring produced per female of a given age. Again, gathering accurate data on fertility in the field is problematic for many populations. In order to simplify calculations, we count only the number of females. That is, the values are mean numbers of females by age class. Fertility, similar to survivorship, can be graphed as a function of age, and the resultant fertility curve is usually triangular or rectangular in shape. 
+
+The sum of the $b_x$ column defines the gross reproductive rate (GRR). This number is the average number of female offspring produced by a female that survives at least through the last reproductive age class
+
+$$GRR = \sum {b_x}$$
+
+The net reproductive rate, $R_0$, that bears a loose relationship to $R$:
+
+$$
+  R_0 = \sum(l_xb_x)
+$$
+
+One way to describe $R_0$ in words is: "the average number of female offspring produced per female over her lifetime." That is, if we follow a cohort of newborn females through their entire lives, the average number of (female) offspring each female pro duces is $R_0$. Yet, there is another meaning that can be ascribed to $R_0$: "the per capita growth rate of the population per generation at stable age structure."
+
+At first glance, these two definitions of $R_0$· do not seem to be equivalent. The first deals with a time unit of a lifetime and the second deals with generation times; the first with the number of offspring produced per female and the second with the growth rate of the population (which has units of per time period - e.g., per year). The trick is to define generation time in such a way that these two definitions are equivalent. Moreover, by defining generation time ($G$) more precisely, we can connect $R_0$ with $l$ as follows: 
+
+$$
+  e^{rG} = R_0
+$$
+
+$$
+  r = ln(R_0)/G
+$$
+
+The approach we take is to imagine that all the $R_0$ babies born to these mothers over their lifetimes were all born to them at some age G instead.
+
+![image](https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb)
 
