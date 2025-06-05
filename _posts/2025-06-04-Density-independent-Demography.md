@@ -3,7 +3,6 @@ title: "Density-independent Demography"
 date: 2025-06-04 
 author: Daniel Borzoo 
 layout: default
-
 ---
 
 
@@ -14,8 +13,7 @@ layout: default
 <script>MathJax = {tex: {inlineMath: [["$", "$"]]}}</script>
 
 
-# Density-independent Demography
----
+
 
 <p align="justify">
 
