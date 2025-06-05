@@ -201,7 +201,7 @@ $$
 Substituting the above equation into the previous one, we will have
 
 $$
-  E_0 = \sum _{x=0} {x (l_x - l_{x+1})} = \sum _{x=0} {x (l_x)} - \sum _{x=0} {x (l_{x+1})} 
+  E_0 = \sum_{x=0}  {x (l_x - l_{x+1})}  = \sum_{x=0} {x (l_x)} - \sum_{x=0} {x (l_{x+1})} 
 $$
 
 $$
