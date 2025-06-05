@@ -158,7 +158,7 @@ The approach we take is to imagine that all the $R_0$ babies born to these mothe
 There are several possible definitions for generation time. We desire one that is not sensitive to the rate that the population is growing ( or shrinking). The most commonly used is to follow a cohort of females from their births, count up all the daughters that they produce during their lifetimes at each of their ages x, and average them to produce a mean age of reproduction: 
 
 $$
-  G = \frac{\sum{(l_xb_xx)}}{\sum{(l_xb_xx)}} = \frac{1}{R_0} \sum{(l_xb_xx}
+  G = \frac{\sum{(l_xb_xx)}}{\sum{(l_xb_x)}} = \frac{1}{R_0} \sum{(l_xb_xx)}
 $$
 
 The numerator of $G$ sums all the lengths of time $x$ between the birth of each mother and the births of each of her own offspring. Mothers give birth only at age $x$ if they survive to age $x$ - hence the $l_x$ terms. The denominator ($R_0$) divides this sum by the total num ber of births produced during the average mother's lifetime.
