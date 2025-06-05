@@ -103,7 +103,7 @@ We can make some general comments. The least realistic of the three types is typ
 
 </p>
 
-<p align = "centered">
+<p align = "center">
   
 ![image](https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677)
 
