@@ -192,4 +192,18 @@ The life expectancy at birth can also be thought of as the mean age of death in 
 
 </p> 
 
+Assuming all the mortality takes place immediately at the beginning of the age interval (on the xth birthday), we will find a new expression for $d_x$. 
 
+$$
+  d_x = 1 - s_x = \frac {l_x - l_{x+1}}{l_x}
+$$
+
+Substituting the above equation into the previous one, we will have
+
+$$
+  E_0 = \sum _{x=0} {x (l_x - l_{x+1})} = \sum _{x=0} {x (l_x)} - \sum _{x=0} {x (l_{x+1})} 
+$$
+
+$$
+  E_0 = 0l_0 - 0l_1 + 1l_1 - 1l_2 + 2l_2 - 2l_3 + 3l_3 + ..... - (max - 1)(l_{max}) + max(l_{max}) 
+$$
