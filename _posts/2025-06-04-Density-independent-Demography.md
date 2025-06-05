@@ -1,5 +1,5 @@
 ---
-title: "Density-independent-Demography"
+title: "Density-independent Demography"
 date: 2025-06-04 
 author: Daniel Borzoo 
 layout: default
@@ -12,6 +12,10 @@ layout: default
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 <script>MathJax = {tex: {inlineMath: [["$", "$"]]}}</script>
+
+
+# Density-independent Demography
+---
 
 <p align="justify">
 
@@ -158,3 +162,15 @@ $$
 $$
 
 The numerator of $G$ sums all the lengths of time $x$ between the birth of each mother and the births of each of her own offspring. Mothers give birth only at age $x$ if they survive to age $x$ - hence the $l_x$ terms. The denominator ($R_0$) divides this sum by the total num ber of births produced during the average mother's lifetime.
+
+## Mean Lifetime of Individuals 
+---
+
+How long can you expect to live? Another way of asking this question is: What is the mean age of individuals at death in a population? Imagine a cohort of individuals that has no mortality at all until age 10, and then everyone dies. The $l(x)$ curve looks like
+
+![image](https://github.com/user-attachments/assets/17f0d659-2a2c-4d86-9f32-086c262809c4)
+
+The area under the $l(x)$ curve is 10, and all individuals have a lifetime of 10 years. Figure below shows another example, one where the l(x) curve declines linearly with age. Now the average age of individuals in the population would intuitively seem to be one half of 10, or 5, and in fact this is correct.
+
+![image](https://github.com/user-attachments/assets/d6513959-96b9-4f26-9265-4f85f0d1e378)
+
