@@ -2,7 +2,7 @@
 title: "Density-independent Demography"
 date: 2025-06-04 
 author: Daniel Borzoo 
-layout: default
+#layout: default
 ---
 
 
