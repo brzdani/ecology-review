@@ -180,5 +180,7 @@ How long can you expect to live? Another way of asking this question is: What is
 
 The area under the $l(x)$ curve is 10, and all individuals have a lifetime of 10 years. Figure below shows another example, one where the l(x) curve declines linearly with age. Now the average age of individuals in the population would intuitively seem to be one half of 10, or 5, and in fact this is correct.
 
-![image](https://github.com/user-attachments/assets/d6513959-96b9-4f26-9265-4f85f0d1e378)
+<p align = 'center'>
+  <img src="https://github.com/user-attachments/assets/d6513959-96b9-4f26-9265-4f85f0d1e378" />
+</p>
 
