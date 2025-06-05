@@ -53,14 +53,29 @@ Structured population models allow us to intertwine species-specific natural his
 
 ##  Survivorship
 ---
+<p align="justify">
+
 The construction of a life table begins by gathering information on survivorship by age class. This sounds simple but is easier described than actually done. For example, one method is to study a cohort of individuals all born at the same time and follow the survivorship of these individuals until the last member of the cohort dies. At the beginning of such a study, it would be necessary to locate and mark all newborn individuals. Subsequently, one would need to verify when each individual died. Individuals that simply disappeared could not be assumed to have died; they might have emigrated.
+
+</P>
+
+<p align="justify">
 
 A second approach is to locate and examine all of the dead individuals in a population during some defined period. We would need a method for estimating the age of the animals or plants at death. This approach to the construction of a life table assumes that the rates of survival in the population are fairly constant. If this is not the case, age-specific mortality rates will be confused with year-to-year variation in mortality of the overall population. Data gathered in this manner produce a static, vertical, or time-specific life table.
 
+</p>
+
+<p align="justify">
+
 A third approach is to collect life history data for several cohorts over as long a period as possible. In most populations, there is a large difference between juvenile and adult survivorship. Therefore, although survivorship data on adults are often relatively easy to gather, such data do not apply to the juvenile age classes. Depending on the age when reproduction begins, it is possible to find the growth rate of the population without specific data on juvenile survivorship, as described later in the chapter.
+
+</P>
+
+<p align="justify">
 
 Let $s_x$ be the survival rate, or probability, that an individual in age class $x$ will survive from the beginning of the year to the beginning of the next year and thus reach age $x + 1$. Let $dx$ = the corresponding death rate of age class x. Then 
 
+</P>
 $$
   s_x = 1 - d_x
 $$
@@ -71,19 +86,35 @@ $$
   l_x = s_1s_2...s_{x-1}
 $$
 
+<p align="justify">
+
 In a survivorship curve, age (x), the independent variable, is graphed against survivorship. Pearl (1927) introduced the idea that biological populations routinely fit one of the three “types” of survivorship curves. The type I curve, known as the “death at senescence” curve, is characterized by excellent survivorship at all ages from birth until “old age,” at which time the death rate rapidly accelerates and survivorship plummets. The type II curve is linear and assumes that either a constant number or a constant proportion of the population dies in each age interval.  Finally, the type III curve applies to the majority of biological populations. In this curve, there is very high mortality among the juvenile age classes while adult survivorship is relatively high.
+
+</p>
+
+<p align="justify">
 
 We can make some general comments. The least realistic of the three types is type I. A type I curve applies to laboratory populations of animals such as Drosophila. If provided ample food, the population has a high rate of survivorship until the end of its maximum life span when individuals die more or less simultaneously. In order for an organism to have a type II survivorship curve, all stages of the life history must be more or less equally vulnerable to predation or other causes of death. Birds, especially the adult stages, are most commonly cited as having a type II survivorship curve. The type III survivorship curve, which features heavy mortality among young age classes followed by good to excellent adult survivorship, applies to most bioogical populations from barnacles to sea turtles to plants. 
 
+</p>
+
 ![image](https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677)
 
+<p align="justify">
+
 From the $l_x$ column, we can develop two parallel columns, which provide information on how survivorship and mortality rates change with age. The $l_x$ column is based on the probability, at birth, of surviving to a given age class. The $P_x$ column, by contrast, is the age-specific probability of surviving to the next age class.
+
+</P>
 
 $$
  P(x) = \frac {l(x+1)} {l(x)}
 $$
 
+<p align="justify">
+
 These px values are critically important when we want to project future population growth as will become clear later in this chapter. The companion value to $P_x$ is $q_x$, which is the proportion of the population that has survived to a given age, $x$, but which will die in the next time or age interval.
+
+</p>
 
 $$
     q_x = 1 - P_x
@@ -124,3 +155,5 @@ There are several possible definitions for generation time. We desire one that i
 $$
   G = \frac{\sum{(l_xb_xx)}}{\sum{(l_xb_xx)}} = \frac{1}{R_0} \sum{(l_xb_xx}
 $$
+
+The numerator of $G$ sums all the lengths of time $x$ between the birth of each mother and the births of each of her own offspring. Mothers give birth only at age $x$ if they survive to age $x$ - hence the $l_x$ terms. The denominator ($R_0$) divides this sum by the total num ber of births produced during the average mother's lifetime.
