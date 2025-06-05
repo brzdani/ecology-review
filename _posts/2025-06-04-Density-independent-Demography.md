@@ -100,7 +100,7 @@ $$GRR = \sum {b_x}$$
 The net reproductive rate, $R_0$, that bears a loose relationship to $R$:
 
 $$
-  R_0 = \sum(l_xb_x)
+  R_0 = \sum{(l_xb_x)}
 $$
 
 One way to describe $R_0$ in words is: "the average number of female offspring produced per female over her lifetime." That is, if we follow a cohort of newborn females through their entire lives, the average number of (female) offspring each female pro duces is $R_0$. Yet, there is another meaning that can be ascribed to $R_0$: "the per capita growth rate of the population per generation at stable age structure."
@@ -119,3 +119,8 @@ The approach we take is to imagine that all the $R_0$ babies born to these mothe
 
 ![image](https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb)
 
+There are several possible definitions for generation time. We desire one that is not sensitive to the rate that the population is growing ( or shrinking). The most commonly used is to follow a cohort of females from their births, count up all the daughters that they produce during their lifetimes at each of their ages x, and average them to produce a mean age of reproduction: 
+
+$$
+  G = \frac{\sum{(l_xb_xx)}}{\sum{(l_xb_xx)}} = \frac{1}{R_0} \sum{(l_xb_xx}
+$$
