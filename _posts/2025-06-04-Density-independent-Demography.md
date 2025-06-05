@@ -103,11 +103,9 @@ We can make some general comments. The least realistic of the three types is typ
 
 </p>
 
-<p align = "center">
-  
+
 ![image](https://github.com/user-attachments/assets/e9727968-b59b-4872-a66b-9727fcf7d677)
 
-</p>
 
 <p align="justify">
 
@@ -157,11 +155,10 @@ $$
 
 The approach we take is to imagine that all the $R_0$ babies born to these mothers over their lifetimes were all born to them at some age G instead.
 
-<p align = "center">
-  
+
 ![image](https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb)
 
-</p>
+
 
 There are several possible definitions for generation time. We desire one that is not sensitive to the rate that the population is growing ( or shrinking). The most commonly used is to follow a cohort of females from their births, count up all the daughters that they produce during their lifetimes at each of their ages x, and average them to produce a mean age of reproduction: 
 
