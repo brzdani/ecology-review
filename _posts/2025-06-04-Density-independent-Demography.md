@@ -76,6 +76,7 @@ A third approach is to collect life history data for several cohorts over as lon
 Let $s_x$ be the survival rate, or probability, that an individual in age class $x$ will survive from the beginning of the year to the beginning of the next year and thus reach age $x + 1$. Let $dx$ = the corresponding death rate of age class x. Then 
 
 </P>
+
 $$
   s_x = 1 - d_x
 $$
