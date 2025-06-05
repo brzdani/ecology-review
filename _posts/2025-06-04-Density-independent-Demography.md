@@ -160,10 +160,6 @@ The approach we take is to imagine that all the $R_0$ babies born to these mothe
   <img src= "https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb" /> 
 </p> 
 
-![image](https://github.com/user-attachments/assets/7fc79e74-14b4-436a-9ed1-cc17819223cb)
-
-
-
 There are several possible definitions for generation time. We desire one that is not sensitive to the rate that the population is growing ( or shrinking). The most commonly used is to follow a cohort of females from their births, count up all the daughters that they produce during their lifetimes at each of their ages x, and average them to produce a mean age of reproduction: 
 
 $$
@@ -177,7 +173,10 @@ The numerator of $G$ sums all the lengths of time $x$ between the birth of each 
 
 How long can you expect to live? Another way of asking this question is: What is the mean age of individuals at death in a population? Imagine a cohort of individuals that has no mortality at all until age 10, and then everyone dies. The $l(x)$ curve looks like
 
-![image](https://github.com/user-attachments/assets/17f0d659-2a2c-4d86-9f32-086c262809c4)
+<p align = 'center'> 
+  <img src="https://github.com/user-attachments/assets/17f0d659-2a2c-4d86-9f32-086c262809c4" />
+</p>
+
 
 The area under the $l(x)$ curve is 10, and all individuals have a lifetime of 10 years. Figure below shows another example, one where the l(x) curve declines linearly with age. Now the average age of individuals in the population would intuitively seem to be one half of 10, or 5, and in fact this is correct.
 
