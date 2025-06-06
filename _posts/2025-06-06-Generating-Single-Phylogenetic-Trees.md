@@ -53,6 +53,8 @@ Quantitative character was seen as a form of continuous distribution, observed b
 
 Qualitative character was seen as a form of rigid distribution, observed visually, had one or two controller genes, influenced by environmental factors very scarcely and selected visually. 
 
+There are two main classes of techniques for reconstructing phylogenetic trees. Clustering methods gradually build up the tree, starting from a small number of sequences and adding one sequence at each step. The output from these methods is a single tree that attempts to recover the evolutionary relationships between the sequences. In the second group of methods, many different tree topologies are generated and each is tested against the data in a search for those that are optimal or close to optimal according to particular criteria. We will discuss clustering methods first, followed by the other techniques. 
+
 ## CONSTRUCTING A CLADOGRAM
 ---
 
@@ -103,7 +105,13 @@ Another measure of the relative amount of homoplasy required by a tree is the re
 ## Distance Based Methods
 ---
 
-There are two main classes of techniques for reconstructing phylogenetic trees. Clustering methods gradually build up the tree, starting from a small number of sequences and adding one sequence at each step. The output from these methods is a single tree that attempts to recover the evolutionary relationships between the sequences. In the second group of methods, many different tree topologies are generated and each is tested against the data in a search for those that are optimal or close to optimal according to particular criteria. We will discuss clustering methods first, followed by the other techniques. 
+Distance methods proceed in two steps:
+-  Estimation of evolutionary distances
+-  Infer tree topology on the basis of estimated evolutionary distances
 
+### UPGMA 
 
+The first distance method we will look at—UPGMA—is simple to apply, but has the disadvantage that it assumes a constant molecular clock. The name UPGMA is an acronym of unweighted pair-group method using arithmetic averages, a description of the technique used. Assumption of a constant rate of evolution has important consequences for a dataset of sequences that are all associated with the same evolutionary time point, namely the present day, as it dictates that the same number of substitutions will have occurred in each sequence since the time of the last common ancestor. Thus, the distance from any node to any leaf that is its descendant will be the same for all descendants. The trees produced by this method are rooted and ultrametric, and all the leaves are at the same distance from the root.
+
+The sequences are grouped into clusters as the tree is constructed, each cluster being defined as the set of all descendants of the new node just added. Initially, all sequences are regarded as defining their own cluster. At each stage, the two clusters with the shortest evolutionary distance are combined into a new cluster. The tree is complete when all the sequences belong to the same cluster, whose node is the root of the tree.
 
