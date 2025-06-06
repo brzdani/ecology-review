@@ -61,7 +61,7 @@ Main points:
 - The microenvironments associated with tree canopies can influence species distribution, productivity, and soil characteristics.
 - The scattered trees found at different densities in the savanna often are thorny and have small leaves, an apparent adaptation to the relatively dry conditions.
 -  The dominant herbivores are actually insects, especially termites.
--  
+
 
 
 
