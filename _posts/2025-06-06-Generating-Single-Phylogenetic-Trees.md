@@ -4,6 +4,14 @@ author: Daniel Borzoo
 date: 2025-06-06
 ---
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>MathJax = {tex: {inlineMath: [["$", "$"]]}}</script>
+
+
+
 An unrooted phylogenetic tree does not assume knowledge of a common ancestor, but only positions the taxa to show their relative relationships. In a rooted tree, all the sequences under study have a common ancestor or root node from which a unique evolutionary path leads to all other nodes. 
 
 ![image](https://github.com/user-attachments/assets/9e835388-0077-40cb-8ec0-7e690dca84ab)
