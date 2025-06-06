@@ -53,7 +53,15 @@ Main points:
 - The rains come in summer and are accompanied by intense lightning.
 - This lightning often starts fires, particularly at the beginning of the wet season when the savanna is tinder dry.
 - These fires kill young treesو while the grasses survive and quickly resprout.
-- Soil layers with low permeability to water play a key role in maintaining many tropical savannas. 
+- Soil layers with low permeability to water play a key role in maintaining many tropical savannas.
+- Continuous weathering in these regions has produced nutrientpoor oxisols, which are particularly deficient in phosphorus.
+- A greater proportion of the biological activity on the savanna takes place near ground level.
+- The tropical savanna is populated by wandering animals that move in response to seasonal and year-to-year variations in rainfall and food availability.
+- Savannas are characterized by a twolayer vertical structure because of the ground cover of grasses and the presence of shrubs or trees.
+- The microenvironments associated with tree canopies can influence species distribution, productivity, and soil characteristics.
+- The scattered trees found at different densities in the savanna often are thorny and have small leaves, an apparent adaptation to the relatively dry conditions.
+-  The dominant herbivores are actually insects, especially termites.
+-  
 
 
 
