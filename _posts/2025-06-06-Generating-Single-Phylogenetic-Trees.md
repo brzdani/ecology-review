@@ -109,7 +109,7 @@ Distance methods proceed in two steps:
 -  Estimation of evolutionary distances
 -  Infer tree topology on the basis of estimated evolutionary distances
 
-### UPGMA 
+### UPGMA & WPGMA
 
 The first distance method we will look at—UPGMA—is simple to apply, but has the disadvantage that it assumes a constant molecular clock. The name UPGMA is an acronym of unweighted pair-group method using arithmetic averages, a description of the technique used. Assumption of a constant rate of evolution has important consequences for a dataset of sequences that are all associated with the same evolutionary time point, namely the present day, as it dictates that the same number of substitutions will have occurred in each sequence since the time of the last common ancestor. Thus, the distance from any node to any leaf that is its descendant will be the same for all descendants. The trees produced by this method are rooted and ultrametric, and all the leaves are at the same distance from the root.
 
@@ -132,3 +132,27 @@ This method is very straightforward to apply, and can be used to construct trees
 ![image](https://github.com/user-attachments/assets/e4255603-5053-4846-97cb-526db983707c)
 
  It often occurs in ecology that groups of objects, representing different regions of a territory, are of unequal sizes. Eliminating objects to equalize the clusters would mean discarding valuable information. However, the presence of a large group of objects, which are more similar a priori because of their common origin, may distort the UPGMA results when a fusion occurs with a smaller group of objects. Sokal & Michener (1958) proposed a solution to this problem, called weighted arithmetic average clustering (“WPGMA” in Sneath & Sokal, 1973: “Weighted Pair-Group Method using Arithmetic averages”). This solution consists in giving equal weights, when computing fusion similarities, to the two branches of the dendrogram that are about to fuse. This is equivalent, when computing a fusion similarity, to giving different weights to the original similarities, i.e. down-weighting the largest group. Hence the name of the method. 
+
+###  The neighbor-joining method
+
+The neighbor-joining (NJ) method proposed by Naruya Saitou and Masatoshi Nei in 1987 does not assume all sequences have the same constant rate of evolution over time, and  is more generally applicable than UPGMA. The basis of the method lies in the concept of minimum evolution, namely that the true tree will be that for which the total branch length, S, is shortest. The resulting tree is not rooted and is additive, a property that is assumed in deriving the formulae for its construction.
+
+Neighbors in a phylogenetic tree are defined as a pair of nodes that are separated by just one other node. As with the methods described above, pairs of tree nodes are identified at each step of the method and used to gradually build up a tree. The way in which pairs of clusters are identified as neighbors in each step is different from that used UPGMA, resulting in the potential to generate a different topology.
+
+To derive the neighbor-joining equations, consider Nsequences, labeled 1 to N. The two trees of Figure below illustrate one step of the neighbor-joining technique. The tree in Figure A is a star tree, in which all sequences are related directly to a single ancestral sequence at node X. Figure B shows a closely related tree in which neighbor sequences 1 and 2 have been separated from node X by another node, Y.  Note that because these trees are not rooted, the direction of evolution along the branch connecting X and Y is not clear. The distance between two sequences is written dij for sequences i and j. The length of a branch of a tree between leaf (or node) e and node f is called bef, and the total branch length S of a star tree such as that in Figure A is given by
+
+$$
+  S = \sum {b_{iX}} = \frac{1}{N - 1} \sum {dij}
+$$
+
+ ![image](https://github.com/user-attachments/assets/839e4cb1-5ff8-41ab-ab70-ee95309dbf7d)
+
+The total branch length of the tree in Figure B, where sequences 1 and 2 have been removed from the central node X by internal node Y, is given by
+
+$$
+  S_{12} = b_{1Y} + b_{2Y} + b_{XY} + \sum_{i=3} {b_{iX}} 
+$$
+
+which needs to be converted into a form that uses the sequence distances d. 
+
+ 
