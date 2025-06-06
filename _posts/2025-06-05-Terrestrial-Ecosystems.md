@@ -38,4 +38,22 @@ Main points:
 
 ![image](https://github.com/user-attachments/assets/732fdb77-4b84-41a7-a90d-87b60cc1c4d9)
 
-## 
+## Tropical Savanna
+---
+
+![image](https://github.com/user-attachments/assets/0066e9ca-6a25-4525-ad39-e6071dc14e60)
+
+Main points: 
+- It is generally applied to a range of vegetation types in the drier tropics and subtropics charcterized by a ground cover of grasses with scattered shrubs or trees.
+- Savannas are associated with a warm continental climate with distinct seasonality in precipitation and a large interannual (year to year) variation in total precipitation.
+- Most tropical savannas occur north and south of tropical dry forests within 10 8  to 20 8  of the equator. 
+- The savanna is warm year-round, averaging 24–29°C.
+- There is seasonality in temperatures, and maximum temperatures occur at the end of  the wet season.
+- Here, however, seasonal drought combines with another important physical factor, fire.
+- The rains come in summer and are accompanied by intense lightning.
+- This lightning often starts fires, particularly at the beginning of the wet season when the savanna is tinder dry.
+- These fires kill young treesو while the grasses survive and quickly resprout.
+- Soil layers with low permeability to water play a key role in maintaining many tropical savannas. 
+
+
+
