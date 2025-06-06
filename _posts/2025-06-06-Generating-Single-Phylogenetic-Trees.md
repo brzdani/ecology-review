@@ -55,9 +55,11 @@ There are two ways to group taxa together based on shared apomorphies.
 ### Constructing a Cladogram: Hennig Argumentation
 
 The information in character 1 unites taxa A, B, and C because they share the apomorphic state. The tree that shows this relationship is:
+<p align = 'left'> 
+  <img src="https://github.com/user-attachments/assets/8bd9e589-0fb2-41d2-b97e-831feb6b712e"/>
+  <img src="https://github.com/user-attachments/assets/58b03234-aa38-4e01-a984-cb2ec8b9a4e0"/>
+</p> 
 
-![image](https://github.com/user-attachments/assets/8bd9e589-0fb2-41d2-b97e-831feb6b712e)
-![image](https://github.com/user-attachments/assets/58b03234-aa38-4e01-a984-cb2ec8b9a4e0)
 
 
 There are two main classes of techniques for reconstructing phylogenetic trees. Clustering methods gradually build up the tree, starting from a small number of sequences and adding one sequence at each step. The output from these methods is a single tree that attempts to recover the evolutionary relationships between the sequences. In the second group of methods, many different tree topologies are generated and each is tested against the data in a search for those that are optimal or close to optimal according to particular criteria. We will discuss clustering methods first, followed by the other techniques. 
