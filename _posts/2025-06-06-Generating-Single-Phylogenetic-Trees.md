@@ -130,3 +130,5 @@ $$
 This method is very straightforward to apply, and can be used to construct trees for large sets of sequences.
 
 ![image](https://github.com/user-attachments/assets/e4255603-5053-4846-97cb-526db983707c)
+
+ It often occurs in ecology that groups of objects, representing different regions of a territory, are of unequal sizes. Eliminating objects to equalize the clusters would mean discarding valuable information. However, the presence of a large group of objects, which are more similar a priori because of their common origin, may distort the UPGMA results when a fusion occurs with a smaller group of objects. Sokal & Michener (1958) proposed a solution to this problem, called weighted arithmetic average clustering (“WPGMA” in Sneath & Sokal, 1973: “Weighted Pair-Group Method using Arithmetic averages”). This solution consists in giving equal weights, when computing fusion similarities, to the two branches of the dendrogram that are about to fuse. This is equivalent, when computing a fusion similarity, to giving different weights to the original similarities, i.e. down-weighting the largest group. Hence the name of the method. 
