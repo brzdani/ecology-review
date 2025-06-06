@@ -56,8 +56,8 @@ There are two ways to group taxa together based on shared apomorphies.
 
 The information in character 1 unites taxa A, B, and C because they share the apomorphic state. The tree that shows this relationship is:
 <p align = 'left'> 
-  <img src="https://github.com/user-attachments/assets/8bd9e589-0fb2-41d2-b97e-831feb6b712e" width= "100"/>
-  <img src="https://github.com/user-attachments/assets/58b03234-aa38-4e01-a984-cb2ec8b9a4e0" width= "100"/>
+  <img src="https://github.com/user-attachments/assets/8bd9e589-0fb2-41d2-b97e-831feb6b712e" width= "1000"/>
+  <img src="https://github.com/user-attachments/assets/58b03234-aa38-4e01-a984-cb2ec8b9a4e0" width= "1000"/>
 </p> 
 
 
