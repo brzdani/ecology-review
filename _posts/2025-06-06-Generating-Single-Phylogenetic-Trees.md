@@ -68,7 +68,32 @@ The information in character 1 unites taxa A, B, and C because they share the ap
   <img src="https://github.com/user-attachments/assets/58b03234-aa38-4e01-a984-cb2ec8b9a4e0" width= "500"/>
 </p> 
 
+Character 2 - the derived state is found only in taxon B. It is an autapomorphy of that taxon and provides no information about the relationships among the taxa:
 
+<p align = 'left'> 
+  <img src = "https://github.com/user-attachments/assets/0f0413d9-9e2d-4444-a904-541d5170a4d3" width = "310"/>
+</p>
+
+Character 3 - the derived state is an autapomorphy. 
+
+![image](https://github.com/user-attachments/assets/4b592a96-8748-4a21-b912-573b9699adf6)
+
+Character 4 - the derived state is a synapomorphy that unites taxa B and C
+
+![image](https://github.com/user-attachments/assets/6315d6b8-fef4-4c1e-89f9-fbe31c6f85f4)
+
+
+Character 5 - the derived state is an autapomorphy for taxon A
+
+![image](https://github.com/user-attachments/assets/1c512bfd-0729-4ffb-a5f6-e1e53cc701ba)
+
+Do not generate a hypothesis any more complex than is demanded by the data. This is because the simplest explanation requires the fewest assumptions and the fewest leaps of logic. In dealing with problems that may have an infinite number of possible solutions, choosing the simplest model may help to “shave off” those variables that are not really necessary to explain the phenomenon. By doing this, model development may become easier, and there may be less chance of introducing inconsistencies, ambiguities, and redundancies, hence, the name Occam’s razor.
+
+
+
+
+## Distance Based Methods
+---
 
 There are two main classes of techniques for reconstructing phylogenetic trees. Clustering methods gradually build up the tree, starting from a small number of sequences and adding one sequence at each step. The output from these methods is a single tree that attempts to recover the evolutionary relationships between the sequences. In the second group of methods, many different tree topologies are generated and each is tested against the data in a search for those that are optimal or close to optimal according to particular criteria. We will discuss clustering methods first, followed by the other techniques. 
 
