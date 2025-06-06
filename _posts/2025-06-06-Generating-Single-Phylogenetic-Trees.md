@@ -115,3 +115,18 @@ The first distance method we will look at—UPGMA—is simple to apply, but has 
 
 The sequences are grouped into clusters as the tree is constructed, each cluster being defined as the set of all descendants of the new node just added. Initially, all sequences are regarded as defining their own cluster. At each stage, the two clusters with the shortest evolutionary distance are combined into a new cluster. The tree is complete when all the sequences belong to the same cluster, whose node is the root of the tree.
 
+The distance between two clusters is defined as follows. Consider the construction of a tree for N sequences and suppose that at some stage you have clusters X containing $N_X$ sequences and Y containing $N_Y$ sequences. Initially, each cluster will contain just one sequence. The evolutionary distance (dXY) between the two clusters X and Y is defined as the arithmetic average of the distances between their constituent sequences, that is 
+
+$$
+  dXY = \frac {1}{N_XN_Y} \sum {dij}
+$$
+
+where i labels all sequences in cluster X, j labels all sequences in cluster Y, and dij is the distance between sequences i and j. When two clusters X and Y are combined to make a new cluster Z there is an efficient way of calculating the distances of other clusters such as W to the new cluster. The new distances can all be defined using existing cluster-to-cluster distances without the need to use the constituent sequence-to-sequence distances, using the equation
+
+$$
+  dZW = \frac {N_XdXW + N_YdYW}{N_Y + N_X}
+$$
+
+This method is very straightforward to apply, and can be used to construct trees for large sets of sequences.
+
+![image](https://github.com/user-attachments/assets/e4255603-5053-4846-97cb-526db983707c)
