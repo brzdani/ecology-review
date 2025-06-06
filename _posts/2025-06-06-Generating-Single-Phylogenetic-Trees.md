@@ -89,7 +89,15 @@ Character 5 - the derived state is an autapomorphy for taxon A
 
 Do not generate a hypothesis any more complex than is demanded by the data. This is because the simplest explanation requires the fewest assumptions and the fewest leaps of logic. In dealing with problems that may have an infinite number of possible solutions, choosing the simplest model may help to “shave off” those variables that are not really necessary to explain the phenomenon. By doing this, model development may become easier, and there may be less chance of introducing inconsistencies, ambiguities, and redundancies, hence, the name Occam’s razor.
 
+The length, or number of steps, is the total number of character state changes necessary to support the relationship of the taxa in a tree. The better a tree fits the data, the fewer homoplasies will be required and the fewer number of character state changes will be required. Therefore, a tree with a lower length fits the data better than a tree with a higher length. The tree with the lowest length compels us to assume fewer homoplasies and so is more parsimonious- it will be the hypothesis of taxa relationship that is selected. 
 
+The relative amount of homoplasy can be measured using the consistency index (often abbreviated CI). It is calculated as the number of steps expected given the number of character states in the data, divided by the actual number of steps multiplied by 100. The formula for the CI is:
+
+![image](https://github.com/user-attachments/assets/dcc05a7b-32ef-4e09-8e6a-12df288eca80)
+
+Another measure of the relative amount of homoplasy required by a tree is the retention index (RI). The retention index measures the amount of synapomorphy expected from a data set that is retained as synapomorphy on a cladogram.
+
+![image](https://github.com/user-attachments/assets/ec628a8c-5b67-47cd-b079-30a3dea1e984)
 
 
 ## Distance Based Methods
